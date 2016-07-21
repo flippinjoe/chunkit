@@ -1,0 +1,32 @@
+{
+  "name": "chunkit",
+  "version": "0.0.1",
+  "description": "A lightweight package to handle receiving data in chunks and streaming that data to azure blob storage",
+  "keywords": [
+    "azure",
+    "stream",
+    "blob storage",
+    "file chunk"
+  ],
+  "main": "index.js",
+  "homepage": "http://some-cool-thing",
+  "license": "NEED ONE",
+  "author": {
+    "name": "Joe Ridenour",
+    "url": "https://github.com/flippinjoe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flippinjoe/chunkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flippinjoe/chunkit/issues"
+  },
+  "scripts": {
+    "test": "mocha --colors --reporter spec --ui bdd"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}

@@ -6,12 +6,12 @@ var Parser = chunkit.Parser;
 describe('#initialize', function () {
     it('should default params', function () {
       (new Parser()).chunkSize.should.equal(1024 * 512);
-    })
+    });
 
     it('should allow param overrides', function () {
       (new Parser({chunkSize: 100})).chunkSize.should.equal(100);
-    })
-})
+    });
+});
 
 describe('#chunkFile~events', function () {
 
@@ -23,7 +23,7 @@ describe('#chunkFile~events', function () {
       .on('end', function (err, count) {
         count.should.equal(958);
         done(err);
-      })
+      });
   });
 
 
@@ -37,8 +37,8 @@ describe('#chunkFile~events', function () {
       })
       .on('end', function () {
         done();
-      })
-  })
+      });
+  });
 
 });
 
@@ -50,7 +50,7 @@ describe('#chunkFile~callback', function () {
     parser.chunkFile(__dirname + '/../example/resources/big-image.jpg', function (err, count) {
       count.should.equal(2);
       done(err);
-    })
+    });
   });
 
   it('should fail with invalid file path', function (done) {
@@ -59,7 +59,7 @@ describe('#chunkFile~callback', function () {
       err.should.be.an('error');
       err.should.not.be.null;
       done();
-    })
-  })
+    });
+  });
 
-})
+});

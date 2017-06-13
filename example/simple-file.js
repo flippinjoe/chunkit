@@ -8,4 +8,4 @@ parser.chunkFile(__dirname + '/resources/big-image.jpg')
   })
   .on('end', function () {
     console.log("done");
-  })
+  });

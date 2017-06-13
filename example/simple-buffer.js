@@ -1,10 +1,6 @@
 
 
-var buffer = new Buffer("I'm a string!", "utf-8")
-
-
-console.log(buffer);
-
+var buffer = new Buffer("I'm a string!", "utf-8");
 
 var chunkSize = 10;
 for (var i = 0; i < buffer.length; i += chunkSize) {

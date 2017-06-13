@@ -30,6 +30,6 @@
     "mocha": "^2.5.3"
   },
   "dependencies": {
-    "azure-storage": "^1.1.0"
+    "azure-storage": "^2.1.0"
   }
 }

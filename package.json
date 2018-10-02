@@ -1,6 +1,6 @@
 {
-  "name": "chunkit",
-  "version": "0.0.2",
+  "name": "@flippinjoe/chunkit",
+  "version": "0.0.4",
   "description": "A lightweight package to handle receiving data in chunks and streaming that data to azure blob storage",
   "keywords": [
     "azure",
@@ -9,8 +9,8 @@
     "file chunk"
   ],
   "main": "index.js",
-  "homepage": "http://some-cool-thing",
-  "license": "NEED ONE",
+  "homepage": "http://github.com/flippinjoe",
+  "license": "MIT",
   "author": {
     "name": "Joe Ridenour",
     "url": "https://github.com/flippinjoe"
